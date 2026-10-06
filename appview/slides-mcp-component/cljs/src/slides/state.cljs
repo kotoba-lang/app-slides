@@ -11,4 +11,4 @@
    :routes []
    :vars []
    :xrpc true
-   :relative-path "60-apps/etzhayyim-project-slides/appview/slides-mcp-component/svelte/src/routes/+page.svelte"})
+   :relative-path "60-apps/etzhayyim-project-slides/appview/slides-mcp-component/cljs/src/slides/ui.cljs"})
