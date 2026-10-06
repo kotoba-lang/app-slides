@@ -1,0 +1,16 @@
+{
+  "name": "etzhayyim-project-slides-appview-slides-mcp-component-cljs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "shadow-cljs release app",
+    "test": "node --test ../test/xrpc.test.mjs"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.28.20"
+  }
+}

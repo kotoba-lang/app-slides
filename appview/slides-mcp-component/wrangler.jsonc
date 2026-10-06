@@ -1,6 +1,6 @@
 {
   "name": "kotodama-slides-mcp",
-  "main": "svelte/.svelte-kit/cloudflare/_worker.js",
+  "main": "src/app.ts",
   "compatibility_date": "2025-03-17",
   "compatibility_flags": [
     "nodejs_compat",
@@ -11,7 +11,7 @@
     "APP_DESCRIPTION": "Thin edge facade; Google Slides OAuth and sync run in BPMN + Zeebe Python",
     "APP_DISPLAY_NAME": "Google Slides",
     "APP_EMBED_URL": "https://slides-mcp.etzhayyim.com/?embed=1",
-    "APP_FRAMEWORK": "sveltekit-edge-bff",
+    "APP_FRAMEWORK": "cljs-reagent-kotoba-ui",
     "APP_NANOID": "slides-mcp",
     "APP_PERFORMER_TYPE": "service",
     "APP_UI_TYPE": "appview",
@@ -28,7 +28,7 @@
     }
   ],
   "assets": {
-    "directory": "./svelte/.svelte-kit/cloudflare/client",
+    "directory": "./cljs/public",
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none"

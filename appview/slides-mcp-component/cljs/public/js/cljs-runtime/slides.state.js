@@ -1,0 +1,4 @@
+goog.provide('slides.state');
+slides.state.app_info = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"routes","routes",457900162),new cljs.core.Keyword(null,"xrpc","xrpc",-1294004094),new cljs.core.Keyword(null,"relative-path","relative-path",1848635172),new cljs.core.Keyword(null,"route-count","route-count",-1535759193),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"title","title",636505583),new cljs.core.Keyword(null,"project","project",1124394579),new cljs.core.Keyword(null,"kind","kind",-717265803),new cljs.core.Keyword(null,"vars","vars",-2046957217)],[cljs.core.PersistentVector.EMPTY,true,"60-apps/etzhayyim-project-slides/appview/slides-mcp-component/svelte/src/routes/+page.svelte",(0),"slides-mcp-component","Slides Mcp Component","etzhayyim-project-slides","appview",cljs.core.PersistentVector.EMPTY]);
+
+//# sourceMappingURL=slides.state.js.map
